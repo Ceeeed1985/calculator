@@ -137,8 +137,8 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (value === '=') {
                 try {
                     display.textContent = eval(display.textContent);
-                    if (display.textContent = 35383773 ){
-                        alert("Gros cochon va");
+                    if (display.textContent == '35383773' ){
+                        alert("Gros cochon va !!");
                     }
                 } catch (error) {
                     display.textContent = 'Error';
